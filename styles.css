@@ -201,6 +201,7 @@ h1 em, h2 em { color: var(--red); font-family: var(--serif); font-weight: 400; t
 .mobile-actions { display: none; }
 
 .lightbox { position: fixed; z-index: 500; inset: 0; display: grid; place-items: center; padding: 18px; }
+.lightbox[hidden] { display: none; }
 .lightbox-backdrop { position: absolute; inset: 0; background: rgba(5,6,6,.8); backdrop-filter: blur(18px) saturate(.4); }
 .lightbox-shell { position: relative; width: min(1420px, 100%); height: min(900px, calc(100svh - 36px)); display: grid; grid-template-rows: 56px minmax(0,1fr) 58px; border: 1px solid rgba(255,255,255,.26); background: rgba(13,15,16,.75); }
 .lightbox-top, .lightbox-controls { display: flex; align-items: center; gap: 8px; padding: 0 14px; background: rgba(13,15,16,.9); }
