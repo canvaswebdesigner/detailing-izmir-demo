@@ -10,7 +10,7 @@ if (new URLSearchParams(window.location.search).has("gallery-test")) {
   portfolioItems[0] = {
     id: "01",
     title: "Etkileşim testi",
-    src: "/assets/og.png",
+    src: "assets/og.png",
     alt: "Detailing İzmir galeri yakınlaştırma test görseli"
   };
 }
