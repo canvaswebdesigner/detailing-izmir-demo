@@ -2,6 +2,8 @@
 
 Tüzün Bey / Detailing İzmir için hazırlanmış statik tanıtım sitesi.
 
+[Canlı demoyu görüntüle](https://canvaswebdesigner.github.io/detailing-izmir-demo/)
+
 ## Kapsam
 
 - Tek sayfalık, mobil öncelikli demo
@@ -13,5 +15,5 @@ Tüzün Bey / Detailing İzmir için hazırlanmış statik tanıtım sitesi.
 
 ## Yayın
 
-- GitHub: `canvaswebdesigner-blip/detailing-izmir-demo`
-- Cloudflare Pages: `detailing-izmir-demo.pages.dev`
+- GitHub: `canvaswebdesigner/detailing-izmir-demo`
+- GitHub Pages: `canvaswebdesigner.github.io/detailing-izmir-demo`
