@@ -11,7 +11,7 @@
   --line-light: rgba(13, 15, 16, 0.18);
   --wrap: min(1180px, calc(100% - 48px));
   --sans: Arial, Helvetica, sans-serif;
-  --display: Impact, "Arial Narrow", Haettenschweiler, sans-serif;
+  --display: "Arial Black", Arial, Helvetica, sans-serif;
   --serif: Georgia, "Times New Roman", serif;
 }
 
@@ -56,9 +56,9 @@ img { display: block; max-width: 100%; }
 .hero-grid { position: relative; display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(50px, 8vw, 120px); align-items: center; }
 .eyebrow { margin: 0 0 22px; color: var(--red); font-size: 10px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
 .eyebrow-dark { color: var(--red-dark); }
-h1, h2 { margin: 0; text-transform: uppercase; font-family: var(--display); font-weight: 900; line-height: .88; letter-spacing: -.025em; }
-h1 { max-width: 850px; font-size: clamp(62px, 7.7vw, 116px); }
-h2 { font-size: clamp(52px, 6.5vw, 92px); }
+h1, h2 { margin: 0; text-transform: uppercase; font-family: var(--display); font-weight: 900; line-height: 1.02; letter-spacing: -.025em; overflow-wrap: break-word; }
+h1 { max-width: 850px; font-size: clamp(52px, 5vw, 84px); }
+h2 { font-size: clamp(40px, 4.8vw, 70px); }
 h1 em, h2 em { color: var(--red); font-family: var(--serif); font-weight: 400; text-transform: none; letter-spacing: -.06em; }
 .hero-lead { max-width: 620px; margin: 30px 0 0; color: #c4c7c4; font-size: clamp(16px, 1.4vw, 19px); line-height: 1.65; }
 .hero-proof { width: fit-content; display: flex; align-items: center; gap: 10px; margin-top: 23px; }
@@ -238,7 +238,7 @@ h1 em, h2 em { color: var(--red); font-family: var(--serif); font-weight: 400; t
   .brand-copy small, .header-cta, .scroll-progress { display: none; }
   .hero { min-height: auto; padding: 118px 0 24px; }
   .hero-grid { grid-template-columns: 1fr; }
-  h1 { font-size: clamp(56px, 17.6vw, 88px); }
+  h1 { font-size: clamp(42px, 12vw, 72px); }
   .hero-lead { margin-top: 24px; }
   .hero-actions { flex-direction: column; }
   .hero-actions .button { width: 100%; }
@@ -282,8 +282,8 @@ h1 em, h2 em { color: var(--red); font-family: var(--serif); font-weight: 400; t
   .brand-copy strong { font-size: 14px; }
   .menu-toggle { width: 43px; height: 43px; }
   .hero { padding-top: 108px; }
-  h1 { font-size: clamp(52px, 16.8vw, 66px); }
-  h2 { font-size: clamp(44px, 14vw, 60px); }
+  h1 { font-size: clamp(38px, 11.7vw, 46px); }
+  h2 { font-size: clamp(34px, 10.5vw, 42px); }
   .hero-proof { flex-wrap: wrap; }
   .portfolio-track { grid-auto-columns: 87vw; grid-template-rows: 118vw; padding-inline: 12px; }
   .process-list li { grid-template-columns: 48px 1fr; gap: 10px; }
